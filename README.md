@@ -11,3 +11,5 @@ Steps for adding a new vocabulary
 
 
 You can check the log at: http://54.88.191.135/jarsomatic/getlog (this will be changed to jarsomatic.linkeddata.es) (or ask Ahmad who is the only one who can understand the logs)
+
+Check here XXXXXXXXXXXXXX whether the new site is ok before making the pull request to master (so that it is updated in vocab.linkeddata.es)
