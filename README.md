@@ -12,4 +12,4 @@ Steps for adding a new vocabulary
 
 You can check the log at: http://54.88.191.135/jarsomatic/getlog (this will be changed to jarsomatic.linkeddata.es) (or ask Ahmad who is the only one who can understand the logs)
 
-Check here XXXXXXXXXXXXXX whether the new site is ok before making the pull request to master (so that it is updated in vocab.linkeddata.es)
+Check the gh-page branch (e.g. http://oeg-upm.github.io/vocabUpdates/site_1461322145696/) to check whether the new site is ok or not before making the pull request to master (so that it is updated in vocab.linkeddata.es)
