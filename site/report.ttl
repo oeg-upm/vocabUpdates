@@ -3,42 +3,35 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWF-INVOCATION>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGGAMESSPECBROWSERQUEST>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab https://w3id.org/games/spec/browserquest" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_GAMES_SPEC_BROWSERQUEST> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETQUALITYMODEL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/QualityModel" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/QualityModel" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWF-INVOCATION>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://purl.org/net/wf-invocation" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://purl.org/net/wf-invocation" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERWFDESC>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/wf4ever/wfdesc" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/wf4ever/wfdesc" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPVOCABLINKEDDATAESDATOSABIERTOSDEFMEDIO-AMBIENTEOTALEX%2523>
-        rdfs:label  "Entry for vocab http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPONT-LOUPELINKEDDATAESDEFCORE>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://ont-loupe.linkeddata.es/def/core" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://ont-loupe.linkeddata.es/def/core" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#error" .
 
 <http://vocab.linkeddata.es/ontology/report#reportDate>
         a       owl:DatatypeProperty .
@@ -46,181 +39,36 @@
 <http://vocab.linkeddata.es/ontology/report#Report>
         a       owl:Class .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-REQS>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wicus-reqs" ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wicus" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wicus-reqs" ;
+                "http://purl.org/net/wicus" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
 <http://vocab.linkeddata.es/ontology/report#Error>
         a       owl:Class .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWF-MOTIFS>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wf-motifs" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wf-motifs" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPDATOSBNEESDEF>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://datos.bne.es/def/" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LANGUAGENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://datos.bne.es/def/" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#warning" , "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPCERRADOLINKEDDATAESECOLOGYCCON>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://cerrado.linkeddata.es/ecology/ccon" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://cerrado.linkeddata.es/ecology/ccon" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETQUALITYMODEL>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/QualityModel" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/QualityModel" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
 <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
         a       owl:DatatypeProperty .
 
-<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-        a       rdf:Property .
-
-<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC>
-        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
-        rdfs:label  "Error: title or description missing from vocabulary" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERROEVO>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/wf4ever/roevo" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/wf4ever/roevo" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETSMARTPROTOCOL>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/SMARTprotocol" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/SMARTprotocol" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSWWWW3ORGNSLEMONVARTRANS>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab https://www.w3.org/ns/lemon/vartrans" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#https:/_WWW.W3.ORG_NS_LEMON_VARTRANS> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
-        a       owl:DatatypeProperty .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSW3IDORGGAMESSPECBROWSERQUEST>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab https://w3id.org/games/spec/browserquest" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_GAMES_SPEC_BROWSERQUEST> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPRTVELINKEDDATAESDEFONTORTVE>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://rtve.linkeddata.es/def/OntoRTVE" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://rtve.linkeddata.es/def/OntoRTVE" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#LANGUAGENOTFOUND>
-        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
-        rdfs:label  "Warning: A language was not recognized in vocabulary" .
-
-<http://vocab.linkeddata.es/ontology/report#GENERICERROR>
-        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
-        rdfs:label  "Error: the vocabulary could not be loaded or processed" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWF-FD>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wf-fd" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wf-fd" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSW3IDORGGAMESSPECCOIL>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab https://w3id.org/games/spec/coil" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_GAMES_SPEC_COIL> ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETEVALUATIONRESULT>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETEVALUATIONRESULT>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://purl.org/net/EvaluationResult" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://purl.org/net/EvaluationResult" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPCONTSEMUNIZARESDEFSECTOR-PUBLICOPPROC>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://contsem.unizar.es/def/sector-publico/pproc" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> , <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://contsem.unizar.es/def/sector-publico/pproc" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#error" , "http://vocab.linkeddata.es/ontology/report#warning" .
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+        a       rdf:Property .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERRO>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERRO>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://purl.org/wf4ever/ro" ;
         <http://vocab.linkeddata.es/ontology/report#detectedProblem>
@@ -228,21 +76,134 @@
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://purl.org/wf4ever/ro" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETRO-OPTIMIZATION>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPCERRADOLINKEDDATAESECOLOGYFIRE>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/ro-optimization" ;
+        rdfs:label  "Entry for vocab http://cerrado.linkeddata.es/ecology/fire" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/ro-optimization" ;
+                "http://cerrado.linkeddata.es/ecology/fire" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC>
+        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
+        rdfs:label  "Error: title or description missing from vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPAEMETLINKEDDATAESONTOLOGY>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://aemet.linkeddata.es/ontology" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://aemet.linkeddata.es/ontology" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPWWWOPMWORGONTOLOGY>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://www.opmw.org/ontology/" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://www.opmw.org/ontology/" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPWWWW3ORGNSPROV>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPCONTSEMUNIZARESDEFSECTOR-PUBLICOPPROC>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://contsem.unizar.es/def/sector-publico/pproc" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> , <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://contsem.unizar.es/def/sector-publico/pproc" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWF-MOTIFS>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wf-motifs" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/wf-motifs" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETSMARTPROTOCOL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/SMARTprotocol" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/SMARTprotocol" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERWFPROV>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/wf4ever/wfprov" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/wf4ever/wfprov" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERROEVO>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/wf4ever/roevo" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/wf4ever/roevo" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPWEBENEMASUNOLINKEDDATAESONTOLOGYOPMO>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://webenemasuno.linkeddata.es/ontology/OPMO" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://webenemasuno.linkeddata.es/ontology/OPMO" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#LANGUAGENOTFOUND>
+        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
+        rdfs:label  "Warning: A language was not recognized in vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPONT-LOUPELINKEDDATAESDEFCORE>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://ont-loupe.linkeddata.es/def/core" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://ont-loupe.linkeddata.es/def/core" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPWWWW3ORGNSPROV>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://www.w3.org/ns/prov" ;
         <http://vocab.linkeddata.es/ontology/report#detectedProblem>
@@ -250,9 +211,44 @@
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://www.w3.org/ns/prov" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#error" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERWFDESC>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/wf4ever/wfdesc" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/wf4ever/wfdesc" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#GENERICERROR>
+        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
+        rdfs:label  "Error: the vocabulary could not be loaded or processed" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSWWWW3ORGNSLEMONVARTRANS>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab https://www.w3.org/ns/lemon/vartrans" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_WWW.W3.ORG_NS_LEMON_VARTRANS> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPVOCABLINKEDDATAESDATOSABIERTOSDEFMEDIO-AMBIENTEOTALEX%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
 
 rdfs:label  a   owl:DatatypeProperty .
 
@@ -262,34 +258,35 @@ rdfs:label  a   owl:DatatypeProperty .
 <http://vocab.linkeddata.es/ontology/report#hasEntry>
         a       rdf:Property .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPVOCABLINKEDDATAESDATOSABIERTOSDEFMEDIO-AMBIENTEOTALEX%23>
-        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
 <http://vocab.linkeddata.es/ontology/report#detectedProblem>
         a       rdf:Property .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPAEMETLINKEDDATAESONTOLOGY>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-REQS>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://aemet.linkeddata.es/ontology" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wicus-reqs" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://aemet.linkeddata.es/ontology" ;
+                "http://purl.org/net/wicus-reqs" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+                "http://vocab.linkeddata.es/ontology/report#success" .
 
 <http://vocab.linkeddata.es/ontology/report#Warning>
         a       owl:Class .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPGEOLINKEDDATAESONTOLOGY>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPCERRADOLINKEDDATAESECOLOGYCCON>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://cerrado.linkeddata.es/ecology/ccon" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://cerrado.linkeddata.es/ecology/ccon" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPGEOLINKEDDATAESONTOLOGY>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://geo.linkeddata.es/ontology/" ;
         <http://vocab.linkeddata.es/ontology/report#detectedProblem>
@@ -297,79 +294,36 @@ rdfs:label  a   owl:DatatypeProperty .
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://geo.linkeddata.es/ontology/" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#error" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-STACK>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETP-PLAN>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wicus-stack" ;
+        rdfs:label  "Entry for vocab http://purl.org/net/p-plan" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wicus-stack" ;
+                "http://purl.org/net/p-plan" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPWWWOPMWORGONTOLOGY>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPRTVELINKEDDATAESDEFONTORTVE>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://www.opmw.org/ontology/" ;
+        rdfs:label  "Entry for vocab http://rtve.linkeddata.es/def/OntoRTVE" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://www.opmw.org/ontology/" ;
+                "http://rtve.linkeddata.es/def/OntoRTVE" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETTRANSLATION>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/translation" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/translation" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
+                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
 
 <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
         a       owl:DatatypeProperty .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLOCLCORGNETLDRNS>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.oclc.org/NET/ldr/ns" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.oclc.org/NET/ldr/ns" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERWFPROV>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/wf4ever/wfprov" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/wf4ever/wfprov" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-HWSPECS>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wicus-hwspecs" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wicus-hwspecs" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#entrySubject>
-        a       rdf:Property .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPONTOSOFTORGSOFTWARE>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPONTOSOFTORGSOFTWARE>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://ontosoft.org/software/" ;
         <http://vocab.linkeddata.es/ontology/report#detectedProblem>
@@ -377,72 +331,57 @@ rdfs:label  a   owl:DatatypeProperty .
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://ontosoft.org/software/" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#error" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETP-PLAN>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWF-FD>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/p-plan" ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wf-fd" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/p-plan" ;
+                "http://purl.org/net/wf-fd" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPWEBENEMASUNOLINKEDDATAESONTOLOGYOPMO>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://webenemasuno.linkeddata.es/ontology/OPMO" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://webenemasuno.linkeddata.es/ontology/OPMO" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGDEFSECTOR-PUBLICO-PROCEDIMIENTOS%2523>
+        rdfs:label  "Entry for vocab https://w3id.org/def/sector-publico-procedimientos#" .
 
-<http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND>
-        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
-        rdfs:label  "Warning: A license was not found for vocabulary" .
+<http://vocab.linkeddata.es/ontology/report#entrySubject>
+        a       rdf:Property .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPCERRADOLINKEDDATAESECOLOGYFIRE>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-HWSPECS>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://cerrado.linkeddata.es/ecology/fire" ;
-        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
-                <http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wicus-hwspecs" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://cerrado.linkeddata.es/ecology/fire" ;
+                "http://purl.org/net/wicus-hwspecs" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wicus" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wicus" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSW3IDORGGAMESSPECASTEROIDS>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLOCLCORGNETLDRNS>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab https://w3id.org/games/spec/asteroids" ;
+        rdfs:label  "Entry for vocab http://purl.oclc.org/NET/ldr/ns" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_GAMES_SPEC_ASTEROIDS> ;
+                "http://purl.oclc.org/NET/ldr/ns" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#Entry>
-        a       owl:Class .
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGGAMESSPECCOIL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab https://w3id.org/games/spec/coil" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_GAMES_SPEC_COIL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPVOCABLINKEDDATAESNORMV>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPVOCABLINKEDDATAESNORMV>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://vocab.linkeddata.es/normv" ;
         <http://vocab.linkeddata.es/ontology/report#detectedProblem>
@@ -450,40 +389,111 @@ rdfs:label  a   owl:DatatypeProperty .
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://vocab.linkeddata.es/normv" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" , "http://vocab.linkeddata.es/ontology/report#warning" .
 
-<http://vocab.linkeddata.es/ontology/report#REPORT1467629049864>
-        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
-        rdfs:label  "Report created on Mon Jul 04 12:44:09 CEST 2016" ;
-        <http://vocab.linkeddata.es/ontology/report#hasEntry>
-                <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSW3IDORGGAMESSPECASTEROIDS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPCERRADOLINKEDDATAESECOLOGYCCON> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERRO> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETQUALITYMODEL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPCONTSEMUNIZARESDEFSECTOR-PUBLICOPPROC> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPGEOLINKEDDATAESONTOLOGY> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLOCLCORGNETLDRNS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSW3IDORGGAMESSPECBROWSERQUEST> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-REQS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERROEVO> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWF-INVOCATION> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPDATOSBNEESDEF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPWWWOPMWORGONTOLOGY> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETVGO> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWF-MOTIFS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-SVA> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETTRANSLATION> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERWFDESC> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-STACK> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPONT-LOUPELINKEDDATAESDEFCORE> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETP-PLAN> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPVOCABLINKEDDATAESDATOSABIERTOSDEFMEDIO-AMBIENTEOTALEX%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-HWSPECS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPONTOSOFTORGSOFTWARE> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETEVALUATIONRESULT> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPCERRADOLINKEDDATAESECOLOGYFIRE> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSW3IDORGGAMESSPECCOIL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPSWWWW3ORGNSLEMONVARTRANS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPRTVELINKEDDATAESDEFONTORTVE> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETRO-OPTIMIZATION> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWF-FD> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGWF4EVERWFPROV> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPAEMETLINKEDDATAESONTOLOGY> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPVOCABLINKEDDATAESNORMV> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETSMARTPROTOCOL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPWWWW3ORGNSPROV> , <http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPWEBENEMASUNOLINKEDDATAESONTOLOGYOPMO> ;
-        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
-                "5" ;
-        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
-                "33" ;
-        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
-                "13" ;
-        <http://vocab.linkeddata.es/ontology/report#reportDate>
-                "Mon Jul 04 12:44:09 CEST 2016"^^xsd:dateTime .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETWICUS-SVA>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wicus-sva" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wicus-sva" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1467629049864HTTPPURLORGNETVGO>
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETVGO>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://purl.org/net/vgo" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://purl.org/net/vgo" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1467629049864> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#LICENSENOTFOUND>
+        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
+        rdfs:label  "Warning: A license was not found for vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-SVA>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wicus-sva" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/wicus-sva" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPVOCABLINKEDDATAESDATOSABIERTOSDEFMEDIO-AMBIENTEOTALEX%2523>
+        rdfs:label  "Entry for vocab http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-STACK>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wicus-stack" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/wicus-stack" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#Entry>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGGAMESSPECASTEROIDS>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab https://w3id.org/games/spec/asteroids" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_GAMES_SPEC_ASTEROIDS> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETRO-OPTIMIZATION>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/ro-optimization" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/ro-optimization" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETTRANSLATION>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/translation" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/translation" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#REPORT1470139781841>
+        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
+        rdfs:label  "Report created on Tue Aug 02 14:09:41 CEST 2016" ;
+        <http://vocab.linkeddata.es/ontology/report#hasEntry>
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETEVALUATIONRESULT> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWF-MOTIFS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPWWWOPMWORGONTOLOGY> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSWWWW3ORGNSLEMONVARTRANS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERWFPROV> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGGAMESSPECCOIL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERROEVO> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETP-PLAN> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGGAMESSPECASTEROIDS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPVOCABLINKEDDATAESDATOSABIERTOSDEFMEDIO-AMBIENTEOTALEX%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGDEFSECTOR-PUBLICO-PROCEDIMIENTOS%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPDATOSBNEESDEF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPAEMETLINKEDDATAESONTOLOGY> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPCERRADOLINKEDDATAESECOLOGYFIRE> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-STACK> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-REQS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERRO> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLOCLCORGNETLDRNS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-HWSPECS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPWEBENEMASUNOLINKEDDATAESONTOLOGYOPMO> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETQUALITYMODEL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGGAMESSPECBROWSERQUEST> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPONTOSOFTORGSOFTWARE> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPVOCABLINKEDDATAESNORMV> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETRO-OPTIMIZATION> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPCONTSEMUNIZARESDEFSECTOR-PUBLICOPPROC> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS-SVA> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPRTVELINKEDDATAESDEFONTORTVE> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPGEOLINKEDDATAESONTOLOGY> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPCERRADOLINKEDDATAESECOLOGYCCON> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWF-FD> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWF-INVOCATION> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETWICUS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETSMARTPROTOCOL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGWF4EVERWFDESC> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETTRANSLATION> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPPURLORGNETVGO> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPWWWW3ORGNSPROV> , <http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPONT-LOUPELINKEDDATAESDEFCORE> ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+                "5" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+                "34" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+                "12" ;
+        <http://vocab.linkeddata.es/ontology/report#reportDate>
+                "Tue Aug 02 14:09:41 CEST 2016"^^xsd:dateTime .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPSW3IDORGDEFSECTOR-PUBLICO-PROCEDIMIENTOS%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_SECTOR-PUBLICO-PROCEDIMIENTOS%23> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1470139781841HTTPDATOSBNEESDEF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://datos.bne.es/def/" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#LANGUAGENOTFOUND> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://datos.bne.es/def/" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1470139781841> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" , "http://vocab.linkeddata.es/ontology/report#success" .

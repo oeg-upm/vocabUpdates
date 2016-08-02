@@ -792,14 +792,41 @@ Extension of the video game ontology to represent the main concepts of the game 
 <td>
 <span class="label label-primary">rdf+xml</span>
 </td>
-<td><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank"> <span class="label label-success">https://creativecommons.org/publicdomain/zero/1.0/</span> </a></td>
+<td><a href="http://purl.org/NET/rdflicense/cc-zero1.0" target="_blank"> <span class="label label-success">CC0</span> </a></td>
 <td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> <a href="http://lexvo.org/id/iso639-3/swe" target="_blank"> <span class="label label-primary">sv</span></a> <a href="http://lexvo.org/id/iso639-3/fra" target="_blank"> <span class="label label-primary">fr</span></a> <a href="http://lexvo.org/id/iso639-3/spa" target="_blank"> <span class="label label-primary">es</span></a> <a href="http://lexvo.org/id/iso639-3/ita" target="_blank"> <span class="label label-primary">it</span></a> <a href="http://lexvo.org/id/iso639-3/por" target="_blank"> <span class="label label-primary">pt</span></a> <a href="http://lexvo.org/id/iso639-3/deu" target="_blank"> <span class="label label-primary">de</span></a> <a href="http://lexvo.org/id/iso639-3/afr" target="_blank"> <span class="label label-primary">af</span></a> <a href="http://lexvo.org/id/iso639-3/ron" target="_blank"> <span class="label label-primary">ro</span></a> <a href="http://lexvo.org/id/iso639-3/nld" target="_blank"> <span class="label label-primary">nl</span></a> </td>
 <td><span class="label label-primary">lexicon</span>
 <span class="label label-primary">lemon</span>
 </td>
 <td>
 A model for the representation of lexical information relative to ontologies. Variation and translation module.</td>
-<input type="hidden" name="inp33" id="inp33" value="Lexicon Model for Ontologies - Vartrans--lexicon--lemon--"/></tr></tbody></table>
+<input type="hidden" name="inp33" id="inp33" value="Lexicon Model for Ontologies - Vartrans--lexicon--lemon--"/></tr><tr id="tr34">
+<td><a href = "https://w3id.org/def/sector-publico-procedimientos#" target="_blank">Vocabulario para la representación de procedimientos administrativos ofrecidos por un ayuntamiento</a> <a href = "ontologies/w3id.orgdefsector-publico-procedimientos.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by4.0" target="_blank"> <span class="label label-success">CC-BY</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/spa" target="_blank"> <span class="label label-primary">es</span></a> <a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary"> public service</span>
+</td>
+<td>
+<p id="collapse34" data-toggle="collapse" >
+Este vocabulario se utiliza para la descripción de procedimientos administrativos ofrecidos por un ayuntamiento. Reutiliza ... <a class="more34">See more</a>
+</p>
+<script>
+$('#collapse34').click(function () {
+if($('a').hasClass('more34'))
+{
+$('#collapse34').html('Este vocabulario se utiliza para la descripción de procedimientos administrativos ofrecidos por un ayuntamiento. Reutiliza términos de varios vocabularios, como:<br>- schema.org<br>- CPSV (Core Public Service Vocabulary)<br>- Unidades territoriales en España<br>Asimismo, se actualizará de acuerdo con la evolución de estos vocabularios (especialmente los que están en pleno desarrollo en el momento de creación de este vocabulario, como el vocabulario sobre unidades territoriales en España).  <a class="less34">See less<a>'); 
+}
+else
+{      
+$('#collapse34').html('Este vocabulario se utiliza para la descripción de procedimientos administrativos ofrecidos por un ayuntamiento. Reutiliza ...  <a  class="more34">See more</a>'); 
+}
+}); 
+</script>
+</td>
+<input type="hidden" name="inp34" id="inp34" value="Vocabulario para la representación de procedimientos administrativos ofrecidos por un ayuntamiento-- public service--"/></tr></tbody></table>
 <hr>
       <footer class="footer">
             <div class="row">
@@ -809,7 +836,7 @@ A model for the representation of lexical information relative to ontologies. Va
     	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
     	Icons from <a target="_blank" href="http://glyphicons.com/">Glyphicons</a>
  	        <br>
-	        Latest revision July, 2016
+	        Latest revision August, 2016
            <br><p>&copy; Ontology Engineering Group</p>
         </div>
     	<div class="col-md-2">
@@ -822,7 +849,7 @@ A model for the representation of lexical information relative to ontologies. Va
 $(function() {
 var availableTags = [
 "The P-Plan ontology"
-, "e-Science", "plan", "provenance", "scientific workflow", "The Workflow Motif Ontology", "workflow abstraction", "The Workflow Invocation Ontology", "infrastructure", "The Research Object Optimization Ontology", "Research Object", "The Workflow Fragment Description ontology", "SMART Protocols Ontology: Protocol Module", "The Workflow Infrastructure Conservation Using Semantics ontology", "workflow", "conservation", "reproducibility", "The WICUS Hardware Specs ontology", "hardware", "specification", "The WICUS Scientific Virtual Appliance ontology", "virtualmachine", "software", "The WICUS Software Stack ontology", "The WICUS Workflow Execution Requirements ontology", "requirements", "execution", "Linked Data Rights (LDR)", "license", "The OPMW ontology", "The Research Object Ontology", "Research Object Evolution Ontology", "The Wfprov Ontology", "The Wfdesc ontology", "The Aemet Ontology Network", "meteorology", "El Viajero Ontology", "news", "blogs", "OntoRTVE", "television", "radio", "Non-Ontological Resource Metadata Vocabulary", "non-Ontological Resource", "The Ccon Ontology", "ecology", "The Fire Ontology", "Lemon translations module", "languages", "translation", "BNE ontology", "libraries", "The Video Game Ontology", "videogames", "Quality Model Ontology", "quality", "evaluation", "Evaluation Result Ontology", "Otalex ontology", "otalex", "alentejo", "geology", "hidrology", "Coil Videogame Ontology", "videogame", "coil", "Asteroids Videogame Ontology", "asteroids", "Browser Quest Videogame Ontology", "browser-quest", "Lexicon Model for Ontologies - Vartrans", "lexicon", "lemon"];
+, "e-Science", "plan", "provenance", "scientific workflow", "The Workflow Motif Ontology", "workflow abstraction", "The Workflow Invocation Ontology", "infrastructure", "The Research Object Optimization Ontology", "Research Object", "The Workflow Fragment Description ontology", "SMART Protocols Ontology: Protocol Module", "The Workflow Infrastructure Conservation Using Semantics ontology", "workflow", "conservation", "reproducibility", "The WICUS Hardware Specs ontology", "hardware", "specification", "The WICUS Scientific Virtual Appliance ontology", "virtualmachine", "software", "The WICUS Software Stack ontology", "The WICUS Workflow Execution Requirements ontology", "requirements", "execution", "Linked Data Rights (LDR)", "license", "The OPMW ontology", "The Research Object Ontology", "Research Object Evolution Ontology", "The Wfprov Ontology", "The Wfdesc ontology", "The Aemet Ontology Network", "meteorology", "El Viajero Ontology", "news", "blogs", "OntoRTVE", "television", "radio", "Non-Ontological Resource Metadata Vocabulary", "non-Ontological Resource", "The Ccon Ontology", "ecology", "The Fire Ontology", "Lemon translations module", "languages", "translation", "BNE ontology", "libraries", "The Video Game Ontology", "videogames", "Quality Model Ontology", "quality", "evaluation", "Evaluation Result Ontology", "Otalex ontology", "otalex", "alentejo", "geology", "hidrology", "Coil Videogame Ontology", "videogame", "coil", "Asteroids Videogame Ontology", "asteroids", "Browser Quest Videogame Ontology", "browser-quest", "Lexicon Model for Ontologies - Vartrans", "lexicon", "lemon", "Vocabulario para la representación de procedimientos administrativos ofrecidos por un ayuntamiento", " public service"];
 $( "#tags" ).autocomplete({
 source: availableTags,
 select: function(event, ui) {
