@@ -38,3 +38,5 @@ https://w3id.org/games/spec/browserquest;videogame,browser-quest
 http://ont-loupe.linkeddata.es/def/core;dataset,linked data,loupe, statistics
 https://www.w3.org/ns/lemon/vartrans;lexicon,lemon
 https://w3id.org/def/sector-publico-procedimientos#; public service
+https://w3id.org/def/saref4envi#; environment, light pollution, photometer, SAREF
+https://w3id.org/def/saref4bldg#; building, building device, device, IFC, SAREF
