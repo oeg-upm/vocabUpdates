@@ -92,43 +92,43 @@ P08. Missing annotations<span style="float: right;">10 cases detected. <span cla
 </div>
 <div id="collapse0" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Ontology terms lack annotations properties. This kind of properties improves the ontology understanding and usability from a user point of view.</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/dc/elements/1.1/title" target="_blank">http://purl.org/dc/elements/1.1/title</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale</a></li><li><a href="http://purl.org/net/EvaluationResult#SubjectCategory" target="_blank">http://purl.org/net/EvaluationResult#SubjectCategory</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale</a></li><li><a href="http://purl.org/dc/elements/1.1/description" target="_blank">http://purl.org/dc/elements/1.1/description</a></li></ul></div>
+<p>This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Interval_scale</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Nominal_scale</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Cardinal_scale</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Ratio_scale</a></li><li><a href="http://purl.org/dc/elements/1.1/title" target="_blank">http://purl.org/dc/elements/1.1/title</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Measurement_scale</a></li><li><a href="http://purl.org/net/EvaluationResult#SubjectCategory" target="_blank">http://purl.org/net/EvaluationResult#SubjectCategory</a></li><li><a href="http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale" target="_blank">http://www.wurvoc.org/vocabularies/om-1.8/Ordinal_scale</a></li><li><a href="http://purl.org/dc/elements/1.1/description" target="_blank">http://purl.org/dc/elements/1.1/description</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse1">
-P13. Missing inverse relationships<span style="float: right;">14 cases detected. <span class="label label-minor">Minor</span></span></a>
+P13. Inverse relationships not explicitly declared<span style="float: right;">14 cases detected. <span class="label label-minor">Minor</span></span></a>
 </h4>
 </div>
 <div id="collapse1" class="panel-collapse collapse">
 <div class="panel-body">
-<p>This pitfall appears when a relationship (except for the symmetric ones) has not an inverse relationship defined within the ontology. For example, the case in which the ontology developer omits the inverse definition between the relations "hasLanguageCode" and "isCodeOf", or between "hasReferee" and "isRefereeOf".</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/QualityModel#isCharacteristicOf" target="_blank">http://purl.org/net/QualityModel#isCharacteristicOf</a></li><li><a href="http://purl.org/net/QualityModel#hasRankigFunction" target="_blank">http://purl.org/net/QualityModel#hasRankigFunction</a></li><li><a href="http://purl.org/net/QualityModel#hasUnitOfMeasurement" target="_blank">http://purl.org/net/QualityModel#hasUnitOfMeasurement</a></li><li><a href="http://purl.org/net/QualityModel#hasOrdinalScaleItem" target="_blank">http://purl.org/net/QualityModel#hasOrdinalScaleItem</a></li><li><a href="http://purl.org/net/QualityModel#hasSubCharacteristic" target="_blank">http://purl.org/net/QualityModel#hasSubCharacteristic</a></li><li><a href="http://purl.org/net/QualityModel#hasScale" target="_blank">http://purl.org/net/QualityModel#hasScale</a></li><ul></div>
+<p>This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/QualityModel#isCharacteristicOf" target="_blank">http://purl.org/net/QualityModel#isCharacteristicOf</a></li><li><a href="http://purl.org/net/QualityModel#hasRankigFunction" target="_blank">http://purl.org/net/QualityModel#hasRankigFunction</a></li><li><a href="http://purl.org/net/QualityModel#hasUnitOfMeasurement" target="_blank">http://purl.org/net/QualityModel#hasUnitOfMeasurement</a></li><li><a href="http://purl.org/net/QualityModel#hasOrdinalScaleItem" target="_blank">http://purl.org/net/QualityModel#hasOrdinalScaleItem</a></li><li><a href="http://purl.org/net/QualityModel#hasSubCharacteristic" target="_blank">http://purl.org/net/QualityModel#hasSubCharacteristic</a></li><li><a href="http://purl.org/net/QualityModel#hasScale" target="_blank">http://purl.org/net/QualityModel#hasScale</a></li><ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse2">
-P19. Swapping intersection and union<span style="float: right;">2 cases detected. <span class="label label-danger">Critical</span></span></a>
+P19. Defining multiple domains or ranges in properties<span style="float: right;">2 cases detected. <span class="label label-danger">Critical</span></span></a>
 </h4>
 </div>
 <div id="collapse2" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The ranges and/or domains of the properties (relationships and attributes) are defined by intersecting several classes in cases in which the ranges and/or domains should be the union of such classes. An example of this type of pitfall is to create the relationship "takesPlaceIn" with domain "OlympicGames" and with range the intersection of the classes "City" and "Nation". Another example can be to create the attribute "Name" for the classes "City" and "Drink" and to define its domain as the intersection of both classes. This pitfall is related to the common error that appears when defining ranges and domains described in [3] and also related to the guidelines for defining these elements provided in [2].</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/dc/elements/1.1/description" target="_blank">http://purl.org/dc/elements/1.1/description</a></li><li><a href="http://purl.org/dc/elements/1.1/title" target="_blank">http://purl.org/dc/elements/1.1/title</a></li></ul></div>
+<p>The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/dc/elements/1.1/description" target="_blank">http://purl.org/dc/elements/1.1/description</a></li><li><a href="http://purl.org/dc/elements/1.1/title" target="_blank">http://purl.org/dc/elements/1.1/title</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse3">
-P22. Using different naming criteria in the ontology<span style="float: right;"> ontology *<span class="label label-minor">Minor</span></span></a>
+P22. Using different naming conventions in the ontology<span style="float: right;"> ontology *<span class="label label-minor">Minor</span></span></a>
 </h4>
 </div>
 <div id="collapse3" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Ontology elements are not named using the same convention within the whole ontology. It is considered a good practice that the rules and style of lexical encoding for naming the different ontology elements is homogeneous within the ontology. One possibility for rules is that concept names start with capital letters and property names start with non-capital letters. In the case of style, there are different options such as camel case, hyphen style, underscore style, and the combinations. Some notions about naming conventions are provided in [2].</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
+<p>The ontology elements are not named following the same convention (for example CamelCase or use of delimiters as &quot;-&quot; or &quot;_&quot;) . Some notions about naming conventions are provided in [2].	</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
 </div>
 </div>
 </div>
@@ -161,7 +161,7 @@ P22. Using different naming criteria in the ontology<span style="float: right;">
 	        <br>
     	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
 	        <br>
-	        Latest revision: August, 2016
+	        Latest revision: February, 2017
            <br><p>&copy; Ontology Engineering Group</p>
         </div>
     	<div class="col-md-2">

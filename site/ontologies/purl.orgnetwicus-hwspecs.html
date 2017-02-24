@@ -96,43 +96,43 @@ P08. Missing annotations<span style="float: right;">11 cases detected. <span cla
 </div>
 <div id="collapse0" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Ontology terms lack annotations properties. This kind of properties improves the ontology understanding and usability from a user point of view.</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-hwspecs#hasFeature" target="_blank">http://purl.org/net/wicus-hwspecs#hasFeature</a></li><li><a href="http://purl.org/net/wicus-hwspecs#value" target="_blank">http://purl.org/net/wicus-hwspecs#value</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Feature" target="_blank">http://purl.org/net/wicus-hwspecs#Feature</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Storage" target="_blank">http://purl.org/net/wicus-hwspecs#Storage</a></li><li><a href="http://purl.org/net/wicus-hwspecs#CPU" target="_blank">http://purl.org/net/wicus-hwspecs#CPU</a></li><li><a href="http://purl.org/net/wicus-hwspecs#unit" target="_blank">http://purl.org/net/wicus-hwspecs#unit</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Memory" target="_blank">http://purl.org/net/wicus-hwspecs#Memory</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Network" target="_blank">http://purl.org/net/wicus-hwspecs#Network</a></li><li><a href="http://purl.org/net/wicus-hwspecs#HardwareComponent" target="_blank">http://purl.org/net/wicus-hwspecs#HardwareComponent</a></li><li><a href="http://purl.org/net/wicus-hwspecs#hasHardwareComponent" target="_blank">http://purl.org/net/wicus-hwspecs#hasHardwareComponent</a></li><li><a href="http://purl.org/net/wicus-hwspecs#HardwareSpec" target="_blank">http://purl.org/net/wicus-hwspecs#HardwareSpec</a></li></ul></div>
+<p>This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-hwspecs#hasFeature" target="_blank">http://purl.org/net/wicus-hwspecs#hasFeature</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Network" target="_blank">http://purl.org/net/wicus-hwspecs#Network</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Storage" target="_blank">http://purl.org/net/wicus-hwspecs#Storage</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Memory" target="_blank">http://purl.org/net/wicus-hwspecs#Memory</a></li><li><a href="http://purl.org/net/wicus-hwspecs#Feature" target="_blank">http://purl.org/net/wicus-hwspecs#Feature</a></li><li><a href="http://purl.org/net/wicus-hwspecs#HardwareComponent" target="_blank">http://purl.org/net/wicus-hwspecs#HardwareComponent</a></li><li><a href="http://purl.org/net/wicus-hwspecs#unit" target="_blank">http://purl.org/net/wicus-hwspecs#unit</a></li><li><a href="http://purl.org/net/wicus-hwspecs#hasHardwareComponent" target="_blank">http://purl.org/net/wicus-hwspecs#hasHardwareComponent</a></li><li><a href="http://purl.org/net/wicus-hwspecs#CPU" target="_blank">http://purl.org/net/wicus-hwspecs#CPU</a></li><li><a href="http://purl.org/net/wicus-hwspecs#HardwareSpec" target="_blank">http://purl.org/net/wicus-hwspecs#HardwareSpec</a></li><li><a href="http://purl.org/net/wicus-hwspecs#value" target="_blank">http://purl.org/net/wicus-hwspecs#value</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse1">
-P10. Missing disjointness [1, 2, 3]<span style="float: right;"> ontology *<span class="label label-warning">Important</span></span></a>
+P10. Missing disjointness<span style="float: right;"> ontology *<span class="label label-warning">Important</span></span></a>
 </h4>
 </div>
 <div id="collapse1" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. For example, we can create the classes "Odd" and "Even" (or the classes "Prime" and "Composite") without being disjoint; such representation is not correct based on the definition of these types of numbers.</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
+<p>The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. This pitfall is related with the guidelines provided in [6], [2] and [7].	</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse2">
-P13. Missing inverse relationships<span style="float: right;">2 cases detected. <span class="label label-minor">Minor</span></span></a>
+P13. Inverse relationships not explicitly declared<span style="float: right;">2 cases detected. <span class="label label-minor">Minor</span></span></a>
 </h4>
 </div>
 <div id="collapse2" class="panel-collapse collapse">
 <div class="panel-body">
-<p>This pitfall appears when a relationship (except for the symmetric ones) has not an inverse relationship defined within the ontology. For example, the case in which the ontology developer omits the inverse definition between the relations "hasLanguageCode" and "isCodeOf", or between "hasReferee" and "isRefereeOf".</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-hwspecs#hasHardwareComponent" target="_blank">http://purl.org/net/wicus-hwspecs#hasHardwareComponent</a></li><li><a href="http://purl.org/net/wicus-hwspecs#hasFeature" target="_blank">http://purl.org/net/wicus-hwspecs#hasFeature</a></li><ul></div>
+<p>This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-hwspecs#hasHardwareComponent" target="_blank">http://purl.org/net/wicus-hwspecs#hasHardwareComponent</a></li><li><a href="http://purl.org/net/wicus-hwspecs#hasFeature" target="_blank">http://purl.org/net/wicus-hwspecs#hasFeature</a></li><ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse3">
-P30. Missing equivalent classes<span style="float: right;">1 case detected. <span class="label label-warning">Important</span></span></a>
+P30. Equivalent classes not explicitly declared<span style="float: right;">1 case detected. <span class="label label-warning">Important</span></span></a>
 </h4>
 </div>
 <div id="collapse3" class="panel-collapse collapse">
 <div class="panel-body">
-<p>When an ontology is imported into another, classes with the same conceptual meaning that are duplicated in both ontologies should be defined as equivalent classes to benefit the interoperability between both ontologies. However, the ontology developer misses the definition of equivalent classes in the cases of duplicated concepts. An example of this pitfall can be not to have the equivalent knowledge explicitly defined between "Trainer" (class in the imported ontology) and "Coach" (class in the ontology about sports being developed). </p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-hwspecs#Memory" target="_blank">http://purl.org/net/wicus-hwspecs#Memory</a> , <a href="http://purl.org/net/wicus-hwspecs#Storage" target="_blank">http://purl.org/net/wicus-hwspecs#Storage</a></li><ul></div>
+<p>This pitfall consists in missing the definition of equivalent classes (owl:equivalentClass) in case of duplicated concepts. When an ontology reuses terms from other ontologies, classes that have the same meaning should be defined as equivalent in order to benefit the interoperability between both ontologies.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-hwspecs#Memory" target="_blank">http://purl.org/net/wicus-hwspecs#Memory</a> , <a href="http://purl.org/net/wicus-hwspecs#Storage" target="_blank">http://purl.org/net/wicus-hwspecs#Storage</a></li><ul></div>
 </div>
 </div>
 </div>
@@ -165,7 +165,7 @@ P30. Missing equivalent classes<span style="float: right;">1 case detected. <spa
 	        <br>
     	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
 	        <br>
-	        Latest revision: August, 2016
+	        Latest revision: February, 2017
            <br><p>&copy; Ontology Engineering Group</p>
         </div>
     	<div class="col-md-2">

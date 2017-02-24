@@ -94,7 +94,7 @@ P04. Creating unconnected ontology elements<span style="float: right;">2 cases d
 </div>
 <div id="collapse0" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Ontology elements (classes, relationships or attributes) are created with no relation to the rest of the ontology. An example of this type of pitfall is to create the relationship "memberOfTeam" and to miss the class representing teams; thus, the relationship created is isolated in the ontology.</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://geo.linkeddata.es/ontology/Rio" target="_blank">http://geo.linkeddata.es/ontology/Rio</a></li><li><a href="http://www.geonames.org/ontology#Feature" target="_blank">http://www.geonames.org/ontology#Feature</a></li></ul></div>
+<p>Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://geo.linkeddata.es/ontology/Rio" target="_blank">http://geo.linkeddata.es/ontology/Rio</a></li><li><a href="http://www.geonames.org/ontology#Feature" target="_blank">http://www.geonames.org/ontology#Feature</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
@@ -106,19 +106,19 @@ P08. Missing annotations<span style="float: right;">2 cases detected. <span clas
 </div>
 <div id="collapse1" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Ontology terms lack annotations properties. This kind of properties improves the ontology understanding and usability from a user point of view.</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://geo.linkeddata.es/ontology/Rio" target="_blank">http://geo.linkeddata.es/ontology/Rio</a></li><li><a href="http://geo.linkeddata.es/ontology/superficie" target="_blank">http://geo.linkeddata.es/ontology/superficie</a></li></ul></div>
+<p>This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://geo.linkeddata.es/ontology/Rio" target="_blank">http://geo.linkeddata.es/ontology/Rio</a></li><li><a href="http://geo.linkeddata.es/ontology/superficie" target="_blank">http://geo.linkeddata.es/ontology/superficie</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse2">
-P10. Missing disjointness [1, 2, 3]<span style="float: right;"> ontology *<span class="label label-warning">Important</span></span></a>
+P10. Missing disjointness<span style="float: right;"> ontology *<span class="label label-warning">Important</span></span></a>
 </h4>
 </div>
 <div id="collapse2" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. For example, we can create the classes "Odd" and "Even" (or the classes "Prime" and "Composite") without being disjoint; such representation is not correct based on the definition of these types of numbers.</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
+<p>The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. This pitfall is related with the guidelines provided in [6], [2] and [7].	</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
 </div>
 </div>
 <div class="panel panel-default">
@@ -130,19 +130,19 @@ P11. Missing domain or range in properties<span style="float: right;">9 cases de
 </div>
 <div id="collapse3" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Relationships and/or attributes without domain or range (or none of them) are included in the ontology. There are situations in which the relation is very general and the range should be the most general concept "Thing". However, in other cases, the relations are more specific and it could be a good practice to specify its domain and/or range. An example of this type of pitfall is to create the relationship "hasWritten" in an ontology about art in which the relationship domain should be "Writer" and the relationship range should be "LiteraryWork". This pitfall is related to the common error when defining ranges and domains described in [3].</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#criterios" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#criterios</a></li><li><a href="http://geo.linkeddata.es/ontology/superficie" target="_blank">http://geo.linkeddata.es/ontology/superficie</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoMunicipio" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoMunicipio</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConNombre" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConNombre</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConCodigo" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConCodigo</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#clasificacionCorine" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#clasificacionCorine</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoCaracteristica" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoCaracteristica</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#publicadoEn" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#publicadoEn</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#abreviacionSuelo" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#abreviacionSuelo</a></li></ul></div>
+<p>Object and/or datatype properties without domain or range (or none of them) are included in the ontology. 	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#abreviacionSuelo" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#abreviacionSuelo</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#clasificacionCorine" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#clasificacionCorine</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConNombre" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConNombre</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#publicadoEn" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#publicadoEn</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#criterios" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#criterios</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConCodigo" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#caracteristicaSituadaEnProvinciaConCodigo</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoMunicipio" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoMunicipio</a></li><li><a href="http://geo.linkeddata.es/ontology/superficie" target="_blank">http://geo.linkeddata.es/ontology/superficie</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoCaracteristica" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#codigoCaracteristica</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse4">
-P20. Misusing ontology annotations<span style="float: right;">1 case detected. <span class="label label-minor">Minor</span></span></a>
+P20. Misusing ontology annotations<span style="float: right;">3 cases detected. <span class="label label-minor">Minor</span></span></a>
 </h4>
 </div>
 <div id="collapse4" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The contents of some annotation properties are swapped or misused. An example of this type of pitfall is to include in the Label annotation of the class "Crossroads" the following sentence ���the place of intersection of two or more roads���; and to include in the Comment annotation the word 'Crossroads'.</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#valorMaximoDeTempEnC" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#valorMaximoDeTempEnC</a></li></ul></div>
+<p>The contents of some annotation properties are swapped or misused. This pitfall might affect annotation properties related to natural language information (for example, annotations for naming such as rdfs:label or for providing descriptions such as rdfs:comment). Other types of annotation could also be affected as temporal, versioning information, among others.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#RioSecundario" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#RioSecundario</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#RioPrincipal" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#RioPrincipal</a></li><li><a href="http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#valorMaximoDeTempEnC" target="_blank">http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/otalex#valorMaximoDeTempEnC</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
@@ -154,7 +154,7 @@ P32. Several classes with the same label<span style="float: right;">3 cases dete
 </div>
 <div id="collapse5" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Two or more classes have the same content in the "rdfs:label" annotation. In some cases they could be defined as equivalent classes (e.g. if they are defined in different namespaces) or they could be replaced by a single class with one or more labels (e.g. if they are defined in the same namespace). </p><p>This pitfall affects to the following ontology elements: </p><ul><ul></div>
+<p>Two or more classes have the same content for natural language annotations for naming, for example the rdfs:label annotation. This pitfall might involve lack of accuracy when defining terms.	</p><p>This pitfall affects to the following ontology elements: </p><ul><ul></div>
 </div>
 </div>
 </div>
@@ -187,7 +187,7 @@ P32. Several classes with the same label<span style="float: right;">3 cases dete
 	        <br>
     	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
 	        <br>
-	        Latest revision: August, 2016
+	        Latest revision: February, 2017
            <br><p>&copy; Ontology Engineering Group</p>
         </div>
     	<div class="col-md-2">

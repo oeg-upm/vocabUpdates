@@ -96,7 +96,7 @@ P04. Creating unconnected ontology elements<span style="float: right;">2 cases d
 </div>
 <div id="collapse0" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Ontology elements (classes, relationships or attributes) are created with no relation to the rest of the ontology. An example of this type of pitfall is to create the relationship "memberOfTeam" and to miss the class representing teams; thus, the relationship created is isolated in the ontology.</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/p-plan#Step" target="_blank">http://purl.org/net/p-plan#Step</a></li><li><a href="http://purl.org/net/p-plan#Plan" target="_blank">http://purl.org/net/p-plan#Plan</a></li></ul></div>
+<p>Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/p-plan#Step" target="_blank">http://purl.org/net/p-plan#Step</a></li><li><a href="http://purl.org/net/p-plan#Plan" target="_blank">http://purl.org/net/p-plan#Plan</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
@@ -108,19 +108,19 @@ P08. Missing annotations<span style="float: right;">16 cases detected. <span cla
 </div>
 <div id="collapse1" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Ontology terms lack annotations properties. This kind of properties improves the ontology understanding and usability from a user point of view.</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/p-plan#isStepOfPlan" target="_blank">http://purl.org/net/p-plan#isStepOfPlan</a></li><li><a href="http://purl.org/net/wicus-reqs#ConcreteWorkflow" target="_blank">http://purl.org/net/wicus-reqs#ConcreteWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#isStepOfWorkflow" target="_blank">http://purl.org/net/wicus-reqs#isStepOfWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#ExecutionEnvironment" target="_blank">http://purl.org/net/wicus-reqs#ExecutionEnvironment</a></li><li><a href="http://purl.org/net/wicus-reqs#SoftwareRequirements" target="_blank">http://purl.org/net/wicus-reqs#SoftwareRequirements</a></li><li><a href="http://purl.org/net/wicus-reqs#HardwareRequirements" target="_blank">http://purl.org/net/wicus-reqs#HardwareRequirements</a></li><li><a href="http://purl.org/net/p-plan#Plan" target="_blank">http://purl.org/net/p-plan#Plan</a></li><li><a href="http://purl.org/net/wicus-reqs#hasLevel" target="_blank">http://purl.org/net/wicus-reqs#hasLevel</a></li><li><a href="http://purl.org/net/wicus-reqs#requiresExecutionEnvironment" target="_blank">http://purl.org/net/wicus-reqs#requiresExecutionEnvironment</a></li><li><a href="http://purl.org/net/wicus-reqs#hasSubworkflow" target="_blank">http://purl.org/net/wicus-reqs#hasSubworkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#WorkflowStep" target="_blank">http://purl.org/net/wicus-reqs#WorkflowStep</a></li><li><a href="http://purl.org/net/p-plan#Step" target="_blank">http://purl.org/net/p-plan#Step</a></li><li><a href="http://purl.org/net/wicus-reqs#RequirementLevel" target="_blank">http://purl.org/net/wicus-reqs#RequirementLevel</a></li><li><a href="http://purl.org/net/wicus-reqs#AbstractWorkflow" target="_blank">http://purl.org/net/wicus-reqs#AbstractWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#Workflow" target="_blank">http://purl.org/net/wicus-reqs#Workflow</a></li><li><a href="http://purl.org/net/wicus-reqs#hasConcreteWorkflow" target="_blank">http://purl.org/net/wicus-reqs#hasConcreteWorkflow</a></li></ul></div>
+<p>This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/p-plan#isStepOfPlan" target="_blank">http://purl.org/net/p-plan#isStepOfPlan</a></li><li><a href="http://purl.org/net/wicus-reqs#Workflow" target="_blank">http://purl.org/net/wicus-reqs#Workflow</a></li><li><a href="http://purl.org/net/wicus-reqs#requiresExecutionEnvironment" target="_blank">http://purl.org/net/wicus-reqs#requiresExecutionEnvironment</a></li><li><a href="http://purl.org/net/wicus-reqs#isStepOfWorkflow" target="_blank">http://purl.org/net/wicus-reqs#isStepOfWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#hasConcreteWorkflow" target="_blank">http://purl.org/net/wicus-reqs#hasConcreteWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#AbstractWorkflow" target="_blank">http://purl.org/net/wicus-reqs#AbstractWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#HardwareRequirements" target="_blank">http://purl.org/net/wicus-reqs#HardwareRequirements</a></li><li><a href="http://purl.org/net/wicus-reqs#RequirementLevel" target="_blank">http://purl.org/net/wicus-reqs#RequirementLevel</a></li><li><a href="http://purl.org/net/p-plan#Step" target="_blank">http://purl.org/net/p-plan#Step</a></li><li><a href="http://purl.org/net/wicus-reqs#hasSubworkflow" target="_blank">http://purl.org/net/wicus-reqs#hasSubworkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#SoftwareRequirements" target="_blank">http://purl.org/net/wicus-reqs#SoftwareRequirements</a></li><li><a href="http://purl.org/net/wicus-reqs#ExecutionEnvironment" target="_blank">http://purl.org/net/wicus-reqs#ExecutionEnvironment</a></li><li><a href="http://purl.org/net/wicus-reqs#hasLevel" target="_blank">http://purl.org/net/wicus-reqs#hasLevel</a></li><li><a href="http://purl.org/net/p-plan#Plan" target="_blank">http://purl.org/net/p-plan#Plan</a></li><li><a href="http://purl.org/net/wicus-reqs#ConcreteWorkflow" target="_blank">http://purl.org/net/wicus-reqs#ConcreteWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#WorkflowStep" target="_blank">http://purl.org/net/wicus-reqs#WorkflowStep</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse2">
-P10. Missing disjointness [1, 2, 3]<span style="float: right;"> ontology *<span class="label label-warning">Important</span></span></a>
+P10. Missing disjointness<span style="float: right;"> ontology *<span class="label label-warning">Important</span></span></a>
 </h4>
 </div>
 <div id="collapse2" class="panel-collapse collapse">
 <div class="panel-body">
-<p>The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. For example, we can create the classes "Odd" and "Even" (or the classes "Prime" and "Composite") without being disjoint; such representation is not correct based on the definition of these types of numbers.</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
+<p>The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. This pitfall is related with the guidelines provided in [6], [2] and [7].	</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
 </div>
 </div>
 <div class="panel panel-default">
@@ -132,19 +132,19 @@ P11. Missing domain or range in properties<span style="float: right;">1 case det
 </div>
 <div id="collapse3" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Relationships and/or attributes without domain or range (or none of them) are included in the ontology. There are situations in which the relation is very general and the range should be the most general concept "Thing". However, in other cases, the relations are more specific and it could be a good practice to specify its domain and/or range. An example of this type of pitfall is to create the relationship "hasWritten" in an ontology about art in which the relationship domain should be "Writer" and the relationship range should be "LiteraryWork". This pitfall is related to the common error when defining ranges and domains described in [3].</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/p-plan#isStepOfPlan" target="_blank">http://purl.org/net/p-plan#isStepOfPlan</a></li></ul></div>
+<p>Object and/or datatype properties without domain or range (or none of them) are included in the ontology. 	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/p-plan#isStepOfPlan" target="_blank">http://purl.org/net/p-plan#isStepOfPlan</a></li></ul></div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" href="#collapse4">
-P13. Missing inverse relationships<span style="float: right;">6 cases detected. <span class="label label-minor">Minor</span></span></a>
+P13. Inverse relationships not explicitly declared<span style="float: right;">6 cases detected. <span class="label label-minor">Minor</span></span></a>
 </h4>
 </div>
 <div id="collapse4" class="panel-collapse collapse">
 <div class="panel-body">
-<p>This pitfall appears when a relationship (except for the symmetric ones) has not an inverse relationship defined within the ontology. For example, the case in which the ontology developer omits the inverse definition between the relations "hasLanguageCode" and "isCodeOf", or between "hasReferee" and "isRefereeOf".</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-reqs#requiresExecutionEnvironment" target="_blank">http://purl.org/net/wicus-reqs#requiresExecutionEnvironment</a></li><li><a href="http://purl.org/net/wicus-reqs#isStepOfWorkflow" target="_blank">http://purl.org/net/wicus-reqs#isStepOfWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#hasSubworkflow" target="_blank">http://purl.org/net/wicus-reqs#hasSubworkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#hasLevel" target="_blank">http://purl.org/net/wicus-reqs#hasLevel</a></li><li><a href="http://purl.org/net/wicus-reqs#hasConcreteWorkflow" target="_blank">http://purl.org/net/wicus-reqs#hasConcreteWorkflow</a></li><li><a href="http://purl.org/net/p-plan#isStepOfPlan" target="_blank">http://purl.org/net/p-plan#isStepOfPlan</a></li><ul></div>
+<p>This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://purl.org/net/wicus-reqs#requiresExecutionEnvironment" target="_blank">http://purl.org/net/wicus-reqs#requiresExecutionEnvironment</a></li><li><a href="http://purl.org/net/wicus-reqs#isStepOfWorkflow" target="_blank">http://purl.org/net/wicus-reqs#isStepOfWorkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#hasSubworkflow" target="_blank">http://purl.org/net/wicus-reqs#hasSubworkflow</a></li><li><a href="http://purl.org/net/wicus-reqs#hasLevel" target="_blank">http://purl.org/net/wicus-reqs#hasLevel</a></li><li><a href="http://purl.org/net/wicus-reqs#hasConcreteWorkflow" target="_blank">http://purl.org/net/wicus-reqs#hasConcreteWorkflow</a></li><li><a href="http://purl.org/net/p-plan#isStepOfPlan" target="_blank">http://purl.org/net/p-plan#isStepOfPlan</a></li><ul></div>
 </div>
 </div>
 </div>
@@ -177,7 +177,7 @@ P13. Missing inverse relationships<span style="float: right;">6 cases detected. 
 	        <br>
     	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
 	        <br>
-	        Latest revision: August, 2016
+	        Latest revision: February, 2017
            <br><p>&copy; Ontology Engineering Group</p>
         </div>
     	<div class="col-md-2">
