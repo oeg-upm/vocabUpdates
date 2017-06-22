@@ -79,70 +79,7 @@
 <dt><span class="label label-warning">Important</span></dt> <dd> Though not critical for ontology function, it is important to correct this type of pitfall.</dd>
 
 <dt><span class="label label-minor">Minor</span></dt> <dd>It is not really a problem, but by correcting it we will make the ontology nicer.</dd>
-</dl><h2>Evaluation results</h2>
-<div class="panel-group" id="accordion">
-<div class="panel panel-default">
-<div class="panel-heading">
-<h4 class="panel-title">
-<a data-toggle="collapse" href="#collapse0">
-P04. Creating unconnected ontology elements<span style="float: right;">1 case detected. <span class="label label-minor">Minor</span></span></a>
-</h4>
-</div>
-<div id="collapse0" class="panel-collapse collapse">
-<div class="panel-body">
-<p>Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://omv.ontoware.org/2005/05/ontology#Ontology" target="_blank">http://omv.ontoware.org/2005/05/ontology#Ontology</a></li></ul></div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading">
-<h4 class="panel-title">
-<a data-toggle="collapse" href="#collapse1">
-P08. Missing annotations<span style="float: right;">23 cases detected. <span class="label label-minor">Minor</span></span></a>
-</h4>
-</div>
-<div id="collapse1" class="panel-collapse collapse">
-<div class="panel-body">
-<p>This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://vocab.linkeddata.es/normv/FlatFile" target="_blank">http://vocab.linkeddata.es/normv/FlatFile</a></li><li><a href="http://vocab.linkeddata.es/normv/PathEnumeration" target="_blank">http://vocab.linkeddata.es/normv/PathEnumeration</a></li><li><a href="http://omv.ontoware.org/2005/05/ontology#Ontology" target="_blank">http://omv.ontoware.org/2005/05/ontology#Ontology</a></li><li><a href="http://vocab.linkeddata.es/normv/NOR" target="_blank">http://vocab.linkeddata.es/normv/NOR</a></li><li><a href="http://vocab.linkeddata.es/normv/ClassificationScheme" target="_blank">http://vocab.linkeddata.es/normv/ClassificationScheme</a></li><li><a href="http://vocab.linkeddata.es/normv/DataModel" target="_blank">http://vocab.linkeddata.es/normv/DataModel</a></li><li><a href="http://vocab.linkeddata.es/normv/Flattened" target="_blank">http://vocab.linkeddata.es/normv/Flattened</a></li><li><a href="http://vocab.linkeddata.es/normv/Domain" target="_blank">http://vocab.linkeddata.es/normv/Domain</a></li><li><a href="http://vocab.linkeddata.es/normv/Thesaurus" target="_blank">http://vocab.linkeddata.es/normv/Thesaurus</a></li><li><a href="http://vocab.linkeddata.es/normv/Implementation" target="_blank">http://vocab.linkeddata.es/normv/Implementation</a></li><li><a href="http://vocab.linkeddata.es/normv/builtByReusing" target="_blank">http://vocab.linkeddata.es/normv/builtByReusing</a></li><li><a href="http://vocab.linkeddata.es/normv/XML" target="_blank">http://vocab.linkeddata.es/normv/XML</a></li><li><a href="http://vocab.linkeddata.es/normv/hasDomain" target="_blank">http://vocab.linkeddata.es/normv/hasDomain</a></li><li><a href="http://vocab.linkeddata.es/normv/Lexicon" target="_blank">http://vocab.linkeddata.es/normv/Lexicon</a></li><li><a href="http://vocab.linkeddata.es/normv/hasDataModel" target="_blank">http://vocab.linkeddata.es/normv/hasDataModel</a></li><li><a href="http://vocab.linkeddata.es/normv/name" target="_blank">http://vocab.linkeddata.es/normv/name</a></li><li><a href="http://vocab.linkeddata.es/normv/RelationBased" target="_blank">http://vocab.linkeddata.es/normv/RelationBased</a></li><li><a href="http://vocab.linkeddata.es/normv/RecordBased" target="_blank">http://vocab.linkeddata.es/normv/RecordBased</a></li><li><a href="http://vocab.linkeddata.es/normv/Snowflake" target="_blank">http://vocab.linkeddata.es/normv/Snowflake</a></li><li><a href="http://vocab.linkeddata.es/normv/Spreadsheet" target="_blank">http://vocab.linkeddata.es/normv/Spreadsheet</a></li><li><a href="http://vocab.linkeddata.es/normv/hasImplementation" target="_blank">http://vocab.linkeddata.es/normv/hasImplementation</a></li><li><a href="http://vocab.linkeddata.es/normv/AdjacencyList" target="_blank">http://vocab.linkeddata.es/normv/AdjacencyList</a></li><li><a href="http://vocab.linkeddata.es/normv/Database" target="_blank">http://vocab.linkeddata.es/normv/Database</a></li></ul></div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading">
-<h4 class="panel-title">
-<a data-toggle="collapse" href="#collapse2">
-P10. Missing disjointness<span style="float: right;"> ontology *<span class="label label-warning">Important</span></span></a>
-</h4>
-</div>
-<div id="collapse2" class="panel-collapse collapse">
-<div class="panel-body">
-<p>The ontology lacks disjoint axioms between classes or between properties that should be defined as disjoint. This pitfall is related with the guidelines provided in [6], [2] and [7].	</p><p>*This pitfall applies to the ontology in general instead of specific elements</p></div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading">
-<h4 class="panel-title">
-<a data-toggle="collapse" href="#collapse3">
-P13. Inverse relationships not explicitly declared<span style="float: right;">4 cases detected. <span class="label label-minor">Minor</span></span></a>
-</h4>
-</div>
-<div id="collapse3" class="panel-collapse collapse">
-<div class="panel-body">
-<p>This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://vocab.linkeddata.es/normv/hasImplementation" target="_blank">http://vocab.linkeddata.es/normv/hasImplementation</a></li><li><a href="http://vocab.linkeddata.es/normv/hasDomain" target="_blank">http://vocab.linkeddata.es/normv/hasDomain</a></li><li><a href="http://vocab.linkeddata.es/normv/hasDataModel" target="_blank">http://vocab.linkeddata.es/normv/hasDataModel</a></li><li><a href="http://vocab.linkeddata.es/normv/builtByReusing" target="_blank">http://vocab.linkeddata.es/normv/builtByReusing</a></li><ul></div>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading">
-<h4 class="panel-title">
-<a data-toggle="collapse" href="#collapse4">
-P34. Untyped class<span style="float: right;">1 case detected. <span class="label label-warning">Important</span></span></a>
-</h4>
-</div>
-<div id="collapse4" class="panel-collapse collapse">
-<div class="panel-body">
-<p>An ontology element is used as a class without having been explicitly declared as such using the primitives owl:Class or rdfs:Class. This pitfall is related with the common problems listed in [8].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://vocab.linkeddata.es/normv/Ontology" target="_blank">http://vocab.linkeddata.es/normv/Ontology</a></li></ul></div>
-</div>
-</div>
-</div>
-<br>
+</dl><br>
 <p>References:</p>
     <ul>
     <li>
@@ -171,7 +108,7 @@ P34. Untyped class<span style="float: right;">1 case detected. <span class="labe
 	        <br>
     	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
 	        <br>
-	        Latest revision: February, 2017
+	        Latest revision: June, 2017
            <br><p>&copy; Ontology Engineering Group</p>
         </div>
     	<div class="col-md-2">
